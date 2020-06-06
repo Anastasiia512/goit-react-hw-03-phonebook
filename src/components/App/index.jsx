@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
-import ContactForm from '../contactForm/index';
+import ContactForm from '../ContactForm/index';
 import Filter from '../Filter/index';
-import ContactList from '../contactList/index';
+import ContactList from '../ContactList/index';
 import { v4 } from 'uuid';
 
 const filterContacts = (contacts, filter) => {

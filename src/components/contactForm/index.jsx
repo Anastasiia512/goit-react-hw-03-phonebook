@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import React, { Component } from './node_modules/react';
+import propTypes from './node_modules/prop-types';
 import './styles.scss';
 
 export default class ContactForm extends Component {

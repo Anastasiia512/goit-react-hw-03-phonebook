@@ -1,5 +1,5 @@
-import React from 'react';
-import propTypes from 'prop-types';
+import React from './node_modules/react';
+import propTypes from './node_modules/prop-types';
 import './styles.scss';
 const ContactList = ({ onHandleDeleteContact, onFilteredContacts }) => (
   <ul className="contactList">
